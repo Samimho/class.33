@@ -320,22 +320,69 @@ body .btn-outline-primary {
 
 
 .about-btn{
-    font-size: 37px;
+    font-size: 25px;
     background: #ddd;
-    padding: 26px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    position: relative;
     border-radius: 50%;
 }
-@keyframes {
-    0%,30%{
-        transform: scale(0);
+.animeted{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px double #ddd;
+    animation: samim 2s ease-in-out infinite;
+}
+.animeted::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px double #ddd;
+    transform: translate(-50%,-50%);
+}
+.animeted::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px double #ddd;
+    transform: translate(-50%,-50%);
+}
+
+
+@keyframes samim {
+    0%{
+        transform: scale(1);
         opacity: 1;
     }
-    50%{
+    25%{
         transform: scale(1.5);
-        opacity: .7;
+        opacity: 0.8;
+    }
+    50%{
+        transform: scale(2);
+        opacity: 0.6;
+    }
+    75%{
+        transform: scale(2.5);
+        opacity: 0.4;
     }
     100%{
-        transform: scale(2);
-        opacity: 0;
+        transform: scale(3);
+        opacity: 0.2;
     }
 }
