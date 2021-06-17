@@ -425,6 +425,9 @@ body .btn-outline-primary {
     margin-bottom: 10px;
     
 }
+.pricing-box hr{
+    background: linear-gradient(45deg,#fff,#111,#fff);
+}
 .pricing-box h4{
     font-weight: 600;
     font-size: 23px;
