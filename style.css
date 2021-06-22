@@ -549,3 +549,158 @@ body .btn-outline-primary {
 .logo-img:hover{
     background: #f6f9fc;
 }
+
+/* blog-section */
+
+.blog-text {
+	width: 450px;
+	margin: auto;
+}
+.blog-text h6 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #3763eb;
+}
+.blog-text h2 {
+	font-size: 26px;
+	text-transform: capitalize;
+	position: relative;
+}
+.blog-text h2::after {
+	content: "";
+	position: absolute;
+	bottom: -12px;
+	left: 46%;
+	width: 40px;
+	height: 2px;
+	background: #3763eb;
+}
+.blog-text p {
+	font-size: 15px;
+	color: #606060;
+}
+.blog-section{
+	background: #f8f9fa;
+}
+
+
+.blog-img{
+	position: relative;
+	
+}
+.blog-img img{
+	border-radius: 5px;
+}
+
+.blog-imge {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	background: #3763eb;
+	padding: 7px 12px;
+	color: #fff;
+}
+.blog-imge img {
+	width: 40px;
+	margin-right: 13px;
+
+}
+.blog-imge h4 {
+	margin: 0;
+	font-size: 20px;
+}
+.blog-content h4 {
+	font-size: 20px;
+	text-transform: capitalize;
+	margin-bottom: 0;
+	margin: 15px 0 15px 0;
+}
+.blog-content p {
+	font-size: 14px;
+	color: #606060;
+}
+
+/*  Footer CSS  */
+.footer-widget h3 {
+	font-size: 22px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-left: 87px;
+	position: relative;
+}
+.footer-widget h3::before {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 24px;
+	top: 3px;
+	left: -14px;
+	background: #0d6efd;
+}
+.footer{
+    background-color: #111111;
+    color: #fff;
+}
+.footer-widget ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 75px;
+}
+.footer-widget ul li {
+    margin: 10px 0;
+}
+.footer-widget ul li a {
+    text-decoration: none;
+    transition: .4s;
+}
+.footer-widget ul li a:hover{
+    letter-spacing: 1.5;
+    color: red;
+}
+.footer-copyright {
+	border-top: 1px solid #444;
+	padding: 20px;
+}
+.footer a{
+    color: #fff;
+}
+
+/*  Footer Social  */
+
+.widget-social ul{
+    display: flex;
+}
+.widget-social .f-ul {
+	display: flex;
+	margin-left: -12px;
+}
+
+.widget-social ul li{
+    padding: 10px 0;
+    margin: 0 !important;
+}
+.widget-social ul li span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.widget-social ul li a {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+
+.footer-copyright p{
+    margin-bottom: 0;
+}
+.footer-contact-item {
+    margin-bottom: 20px;
+}
+.footer-contact-item span {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.footer-contact-item a {
+    text-decoration: none;
+}
